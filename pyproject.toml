@@ -15,5 +15,4 @@ build-backend = "hatchling.build"
 [project.scripts]
 excel-reader-server = "excel_reader_server:main"
 
-[tool.hatch.build.targets.wheel]
-packages = ["src"]
+
