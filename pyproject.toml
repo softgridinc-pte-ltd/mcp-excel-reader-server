@@ -1,0 +1,19 @@
+[project]
+name = "excel-reader-server"
+version = "0.1.0"
+description = "MCP server for reading Excel files"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.2.1",
+    "openpyxl>=3.1.5",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+excel-reader-server = "excel_reader_server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
