@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/softgridinc-pte-ltd-mcp-excel-reader-server-badge.png)](https://mseep.ai/app/softgridinc-pte-ltd-mcp-excel-reader-server)
+
 # Excel Reader Server
 
 A Model Context Protocol (MCP) server that provides tools for reading Excel (xlsx) files.
